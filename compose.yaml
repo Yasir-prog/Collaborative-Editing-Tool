@@ -1,0 +1,8 @@
+name: Collab_Text_Editor
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    container_name: Text-editor
